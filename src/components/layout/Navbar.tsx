@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -36,8 +37,13 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center">
-          <span className="font-display text-3xl tracking-widest text-foreground">
+        <Link to="/" className="flex items-center gap-3">
+          <img 
+            src={logo} 
+            alt="Temography Logo" 
+            className="h-12 w-12 rounded-full object-cover"
+          />
+          <span className="font-display text-2xl tracking-widest text-foreground hidden sm:block">
             TEMOGRAPHY
           </span>
         </Link>

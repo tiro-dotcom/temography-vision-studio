@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -8,9 +9,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <span className="font-display text-3xl tracking-widest text-foreground">
-              TEMOGRAPHY
-            </span>
+            <Link to="/" className="flex items-center gap-3">
+              <img 
+                src={logo} 
+                alt="Temography Logo" 
+                className="h-14 w-14 rounded-full object-cover"
+              />
+              <span className="font-display text-2xl tracking-widest text-foreground">
+                TEMOGRAPHY
+              </span>
+            </Link>
             <p className="mt-4 text-muted-foreground font-body text-sm leading-relaxed">
               Behind the Camera
               <br />
