@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, MapPin, Instagram, Facebook, Send } from "lucide-react";
+import { Phone, MapPin, Instagram, Facebook, Send, Mail } from "lucide-react";
 import { toast } from "sonner";
 
 const Contact = () => {
@@ -88,6 +88,21 @@ const Contact = () => {
                         className="text-muted-foreground hover:text-foreground transition-colors font-body"
                       >
                         079 996 3842
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <Mail className="h-6 w-6 text-foreground/60 mt-1" />
+                    <div>
+                      <h3 className="font-display text-xl tracking-wider mb-2">
+                        Email
+                      </h3>
+                      <a
+                        href="mailto:temogomonye@gmail.com"
+                        className="text-muted-foreground hover:text-foreground transition-colors font-body"
+                      >
+                        temogomonye@gmail.com
                       </a>
                     </div>
                   </div>

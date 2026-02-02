@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Phone } from "lucide-react";
+import { Instagram, Facebook, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -12,7 +12,7 @@ export function Footer() {
               TEMOGRAPHY
             </span>
             <p className="mt-4 text-muted-foreground font-body text-sm leading-relaxed">
-              Capturing Moments. Creating Memories.
+              Behind the Camera
               <br />
               Premium photography and videography services in Mahikeng, South Africa.
             </p>
@@ -44,6 +44,13 @@ export function Footer() {
               >
                 <Phone className="h-4 w-4" />
                 079 996 3842
+              </a>
+              <a
+                href="mailto:temogomonye@gmail.com"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm"
+              >
+                <Mail className="h-4 w-4" />
+                temogomonye@gmail.com
               </a>
               <div className="flex gap-4 mt-2">
                 <a
