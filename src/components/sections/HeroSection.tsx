@@ -24,7 +24,7 @@ export function HeroSection() {
             TEMOGRAPHY
           </h1>
           <p className="font-body text-xl md:text-2xl text-foreground/80 tracking-wide mb-4 opacity-0 animate-fade-up delay-200">
-            Capturing Moments. Creating Memories.
+            Behind the Camera
           </p>
           <p className="font-body text-muted-foreground max-w-2xl mx-auto mb-12 opacity-0 animate-fade-up delay-300">
             Premium photography and videography services bringing your special moments to life 
