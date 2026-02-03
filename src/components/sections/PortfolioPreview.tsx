@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import weddingImg from "@/assets/portfolio-wedding.jpg";
+import wedding5 from "@/assets/wedding-5.jpg";
 import partyImg from "@/assets/portfolio-party.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
 
 const previewProjects = [
-  { title: "Weddings", image: weddingImg },
+  { title: "Weddings", image: wedding5 },
   { title: "Parties", image: partyImg },
   { title: "Matric Dance", image: matricImg },
 ];
