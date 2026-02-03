@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { CTASection } from "@/components/sections/CTASection";
 import partyImg from "@/assets/portfolio-party.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
-import engagementImg from "@/assets/portfolio-engagement.jpg";
+import engagementImg from "@/assets/engagement-1.jpg";
 import familyImg from "@/assets/portfolio-family.jpg";
 import wedding1 from "@/assets/wedding-1.jpg";
 import wedding2 from "@/assets/wedding-2.jpg";
