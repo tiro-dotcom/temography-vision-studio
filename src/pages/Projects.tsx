@@ -2,11 +2,16 @@ import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CTASection } from "@/components/sections/CTASection";
-import weddingImg from "@/assets/portfolio-wedding.jpg";
 import partyImg from "@/assets/portfolio-party.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
 import engagementImg from "@/assets/portfolio-engagement.jpg";
 import familyImg from "@/assets/portfolio-family.jpg";
+import wedding1 from "@/assets/wedding-1.jpg";
+import wedding2 from "@/assets/wedding-2.jpg";
+import wedding3 from "@/assets/wedding-3.jpg";
+import wedding4 from "@/assets/wedding-4.jpg";
+import wedding5 from "@/assets/wedding-5.jpg";
+import wedding6 from "@/assets/wedding-6.jpg";
 
 const categories = [
   { id: "all", label: "All" },
@@ -18,15 +23,16 @@ const categories = [
 ];
 
 const projects = [
-  { id: 1, category: "weddings", title: "Elegant Wedding", image: weddingImg },
-  { id: 2, category: "parties", title: "Celebration Event", image: partyImg },
-  { id: 3, category: "matric", title: "Matric Dance Portrait", image: matricImg },
-  { id: 4, category: "engagements", title: "Romantic Engagement", image: engagementImg },
-  { id: 5, category: "family", title: "Family Portrait", image: familyImg },
-  { id: 6, category: "weddings", title: "Bridal Beauty", image: weddingImg },
-  { id: 7, category: "parties", title: "Evening Celebration", image: partyImg },
-  { id: 8, category: "engagements", title: "Love Story", image: engagementImg },
-  { id: 9, category: "family", title: "Family Moments", image: familyImg },
+  { id: 1, category: "weddings", title: "Traditional Wedding", image: wedding1 },
+  { id: 2, category: "weddings", title: "Sunset Silhouette", image: wedding2 },
+  { id: 3, category: "weddings", title: "Bridal Elegance", image: wedding3 },
+  { id: 4, category: "weddings", title: "Garden Beauty", image: wedding4 },
+  { id: 5, category: "weddings", title: "First Dance", image: wedding5 },
+  { id: 6, category: "weddings", title: "Intimate Moments", image: wedding6 },
+  { id: 7, category: "parties", title: "Celebration Event", image: partyImg },
+  { id: 8, category: "matric", title: "Matric Dance Portrait", image: matricImg },
+  { id: 9, category: "engagements", title: "Romantic Engagement", image: engagementImg },
+  { id: 10, category: "family", title: "Family Portrait", image: familyImg },
 ];
 
 const Projects = () => {
