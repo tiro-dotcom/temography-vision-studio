@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CTASection } from "@/components/sections/CTASection";
-import partyImg from "@/assets/portfolio-party.jpg";
+import party1 from "@/assets/party-1.jpg";
+import party2 from "@/assets/party-2.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
 import engagementImg from "@/assets/engagement-1.jpg";
 import familyImg from "@/assets/portfolio-family.jpg";
@@ -29,7 +30,8 @@ const projects = [
   { id: 4, category: "weddings", title: "Garden Beauty", image: wedding4 },
   { id: 5, category: "weddings", title: "First Dance", image: wedding5 },
   { id: 6, category: "weddings", title: "Intimate Moments", image: wedding6 },
-  { id: 7, category: "parties", title: "Celebration Event", image: partyImg },
+  { id: 7, category: "parties", title: "Vintage Style", image: party1 },
+  { id: 11, category: "parties", title: "Night Out", image: party2 },
   { id: 8, category: "matric", title: "Matric Dance Portrait", image: matricImg },
   { id: 9, category: "engagements", title: "Romantic Engagement", image: engagementImg },
   { id: 10, category: "family", title: "Family Portrait", image: familyImg },
