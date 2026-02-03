@@ -28,17 +28,17 @@ const About = () => {
         {/* Story Section */}
         <section className="py-24 bg-card">
           <div className="container mx-auto px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="flex flex-col lg:flex-row gap-12 items-center">
               {/* Image */}
-              <div className="relative order-2 lg:order-1">
+              <div className="relative order-2 lg:order-1 shrink-0">
                 <img
                   src={temogoPortrait}
                   alt="Temogo Monye - Founder of Temography"
-                  className="w-full aspect-[4/5] object-cover rounded-sm cinematic-border"
+                  className="w-64 md:w-80 aspect-[4/5] object-cover rounded-sm cinematic-border"
                 />
-                <div className="absolute -bottom-6 -right-6 bg-background p-6 rounded-sm border border-border/30">
-                  <p className="font-display text-4xl tracking-wider">18</p>
-                  <p className="font-body text-sm text-muted-foreground">Years Young</p>
+                <div className="absolute -bottom-4 -right-4 bg-background p-4 rounded-sm border border-border/30">
+                  <p className="font-display text-3xl tracking-wider">18</p>
+                  <p className="font-body text-xs text-muted-foreground">Years Young</p>
                 </div>
               </div>
 
