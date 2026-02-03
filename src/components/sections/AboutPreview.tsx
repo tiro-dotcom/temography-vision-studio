@@ -9,7 +9,7 @@ export function AboutPreview() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
-          <div className="relative group">
+          <div className="relative group max-w-sm mx-auto lg:mx-0">
             <div className="absolute -inset-4 bg-gradient-to-tr from-foreground/5 to-transparent rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <img
               src={temogoPortrait}
