@@ -7,14 +7,14 @@ export function AboutPreview() {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Image */}
-          <div className="relative group max-w-sm mx-auto lg:mx-0">
+          <div className="relative group shrink-0">
             <div className="absolute -inset-4 bg-gradient-to-tr from-foreground/5 to-transparent rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <img
               src={temogoPortrait}
               alt="Temogo Monye - Founder of Temography"
-              className="w-full aspect-[4/5] object-cover rounded-sm cinematic-border"
+              className="w-64 md:w-72 aspect-[4/5] object-cover rounded-sm cinematic-border"
             />
           </div>
 
