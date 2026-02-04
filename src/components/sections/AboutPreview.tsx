@@ -9,19 +9,22 @@ export function AboutPreview() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col-reverse lg:flex-row gap-12 lg:gap-16 items-center justify-between">
           {/* Content */}
-          <div className="flex-1">
-            <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
+          <div className="flex-1 flex flex-col justify-center">
+            <span className="font-body text-sm tracking-widest text-muted-foreground uppercase mb-4">
               About the Artist
             </span>
-            <h2 className="font-display text-5xl md:text-6xl tracking-wider mt-4 mb-6">
+            <h2 className="font-display text-5xl md:text-6xl tracking-wider mb-8">
               TEMOGO MONYE
             </h2>
-            <p className="text-muted-foreground font-body leading-relaxed mb-6">
+            <p className="text-muted-foreground font-body leading-loose mb-8">
               At just 18 years old, Temogo Monye has already established himself as a 
-              skilled photographer and videographer. Trained and apprenticed by Bonolo Monye, 
-              he brings a fresh perspective combined with professional expertise to every project.
+              skilled photographer and videographer.
             </p>
-            <p className="text-muted-foreground font-body leading-relaxed mb-8">
+            <p className="text-muted-foreground font-body leading-loose mb-8">
+              Trained and apprenticed by Bonolo Monye, he brings a fresh perspective 
+              combined with professional expertise to every project.
+            </p>
+            <p className="text-muted-foreground font-body leading-loose mb-10">
               Temography represents youthful creativity, professionalism, and a commitment 
               to high-quality visual storytelling. Based in Mahikeng, South Africa, we 
               specialize in capturing the moments that matter most.
