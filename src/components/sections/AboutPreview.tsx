@@ -7,7 +7,7 @@ export function AboutPreview() {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
+        <div className="flex flex-col-reverse lg:flex-row gap-12 lg:gap-16 items-center justify-between">
           {/* Content */}
           <div className="flex-1">
             <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
