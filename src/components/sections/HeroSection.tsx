@@ -20,8 +20,8 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl tracking-wider mb-6 opacity-0 animate-fade-up">
-            TEMOGRAPHY
+          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl mb-6 opacity-0 animate-fade-up">
+            Temography
           </h1>
           <p className="font-body text-xl md:text-2xl text-foreground/80 tracking-wide mb-4 opacity-0 animate-fade-up delay-200">
             Behind the Camera

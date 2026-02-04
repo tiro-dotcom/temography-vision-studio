@@ -55,8 +55,8 @@ const Services = () => {
               <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
                 What We Offer
               </span>
-              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-wider mt-4 mb-6">
-                OUR SERVICES
+              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl mt-4 mb-6">
+                Our Services
               </h1>
               <p className="text-xl text-muted-foreground font-body leading-relaxed max-w-2xl">
                 Professional photography and videography services tailored to capture 
@@ -73,10 +73,10 @@ const Services = () => {
               {services.map((service) => (
                 <div
                   key={service.title}
-                  className="group p-8 bg-background rounded-sm border border-border/30 hover:border-foreground/20 transition-all duration-300"
+                  className="group p-8 bg-background rounded-sm border border-border/30 hover:border-accent/50 transition-all duration-300"
                 >
-                  <service.icon className="h-12 w-12 text-foreground/60 mb-6 group-hover:text-foreground transition-colors" />
-                  <h3 className="font-display text-2xl tracking-wider mb-4">
+                  <service.icon className="h-12 w-12 text-accent mb-6 group-hover:text-accent transition-colors" />
+                  <h3 className="font-display text-2xl mb-4">
                     {service.title}
                   </h3>
                   <p className="text-muted-foreground font-body text-sm leading-relaxed mb-6">
@@ -88,7 +88,7 @@ const Services = () => {
                         key={feature}
                         className="flex items-center gap-2 text-muted-foreground font-body text-sm"
                       >
-                        <span className="w-1 h-1 bg-foreground/50 rounded-full" />
+                        <span className="w-1 h-1 bg-accent rounded-full" />
                         {feature}
                       </li>
                     ))}
@@ -103,8 +103,8 @@ const Services = () => {
         <section className="py-24 bg-background">
           <div className="container mx-auto px-6">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="font-display text-4xl md:text-5xl tracking-wider mb-6">
-                GET A QUOTE
+              <h2 className="font-display text-4xl md:text-5xl mb-6">
+                Get a Quote
               </h2>
               <p className="text-muted-foreground font-body text-lg leading-relaxed mb-10">
                 Every project is unique. Contact us to discuss your vision and receive 

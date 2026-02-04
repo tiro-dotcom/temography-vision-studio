@@ -20,8 +20,8 @@ export function PortfolioPreview() {
           <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
             Our Work
           </span>
-          <h2 className="font-display text-5xl md:text-6xl tracking-wider mt-4">
-            FEATURED PROJECTS
+          <h2 className="font-display text-5xl md:text-6xl mt-4">
+            Featured Projects
           </h2>
         </div>
 
@@ -41,11 +41,11 @@ export function PortfolioPreview() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="font-display text-2xl tracking-wider text-foreground">
+                <h3 className="font-display text-2xl text-foreground">
                   {project.title}
                 </h3>
               </div>
-              <div className="absolute inset-0 border border-foreground/0 group-hover:border-foreground/20 transition-colors duration-300 rounded-sm" />
+              <div className="absolute inset-0 border border-foreground/0 group-hover:border-accent/30 transition-colors duration-300 rounded-sm" />
             </Link>
           ))}
         </div>

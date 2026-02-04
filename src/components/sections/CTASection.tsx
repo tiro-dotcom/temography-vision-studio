@@ -13,8 +13,8 @@ export function CTASection() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-display text-5xl md:text-6xl tracking-wider mb-6">
-            READY TO CREATE?
+          <h2 className="font-display text-5xl md:text-6xl mb-6">
+            Ready to Create?
           </h2>
           <p className="text-muted-foreground font-body text-lg leading-relaxed mb-10">
             Let's bring your vision to life. Whether it's a wedding, special event, or 

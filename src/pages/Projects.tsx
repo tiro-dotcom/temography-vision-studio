@@ -55,8 +55,8 @@ const Projects = () => {
               <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
                 Portfolio
               </span>
-              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-wider mt-4 mb-6">
-                OUR PROJECTS
+              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl mt-4 mb-6">
+                Our Projects
               </h1>
               <p className="text-xl text-muted-foreground font-body leading-relaxed max-w-2xl">
                 A showcase of our finest work across weddings, events, and personal shoots.
@@ -73,10 +73,10 @@ const Projects = () => {
                 <button
                   key={cat.id}
                   onClick={() => setActiveCategory(cat.id)}
-                  className={`px-6 py-2 font-body text-sm tracking-widest uppercase transition-all duration-300 border rounded-sm ${
+                  className={`px-6 py-2 font-body text-sm tracking-wide transition-all duration-300 border rounded-sm ${
                     activeCategory === cat.id
                       ? "bg-foreground text-background border-foreground"
-                      : "bg-transparent text-muted-foreground border-border/30 hover:border-foreground/50 hover:text-foreground"
+                      : "bg-transparent text-muted-foreground border-border/30 hover:border-accent/50 hover:text-foreground"
                   }`}
                 >
                   {cat.label}
@@ -106,11 +106,11 @@ const Projects = () => {
                     <p className="font-body text-xs tracking-widest text-muted-foreground uppercase mb-1">
                       {categories.find((c) => c.id === project.category)?.label}
                     </p>
-                    <h3 className="font-display text-2xl tracking-wider text-foreground">
+                    <h3 className="font-display text-2xl text-foreground">
                       {project.title}
                     </h3>
                   </div>
-                  <div className="absolute inset-0 border border-foreground/0 group-hover:border-foreground/20 transition-colors duration-300 rounded-sm" />
+                  <div className="absolute inset-0 border border-foreground/0 group-hover:border-accent/30 transition-colors duration-300 rounded-sm" />
                 </div>
               ))}
             </div>
