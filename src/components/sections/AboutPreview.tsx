@@ -7,19 +7,9 @@ export function AboutPreview() {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
-          {/* Image */}
-          <div className="relative group shrink-0">
-            <div className="absolute -inset-4 bg-gradient-to-tr from-foreground/5 to-transparent rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <img
-              src={temogoPortrait}
-              alt="Temogo Monye - Founder of Temography"
-              className="w-64 md:w-72 aspect-[4/5] object-cover rounded-sm cinematic-border"
-            />
-          </div>
-
+        <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
           {/* Content */}
-          <div>
+          <div className="flex-1">
             <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
               About the Artist
             </span>
@@ -42,6 +32,16 @@ export function AboutPreview() {
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
+          </div>
+
+          {/* Image */}
+          <div className="relative group shrink-0">
+            <div className="absolute -inset-4 bg-gradient-to-tr from-foreground/5 to-transparent rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <img
+              src={temogoPortrait}
+              alt="Temogo Monye - Founder of Temography"
+              className="w-64 md:w-72 aspect-[4/5] object-cover rounded-sm cinematic-border"
+            />
           </div>
         </div>
       </div>
