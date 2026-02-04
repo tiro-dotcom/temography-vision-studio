@@ -57,8 +57,8 @@ const Contact = () => {
               <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
                 Get In Touch
               </span>
-              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-wider mt-4 mb-6">
-                CONTACT US
+              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl mt-4 mb-6">
+                Contact Us
               </h1>
               <p className="text-xl text-muted-foreground font-body leading-relaxed max-w-2xl">
                 Ready to capture your special moments? Let's discuss your project.
@@ -73,14 +73,14 @@ const Contact = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               {/* Contact Info */}
               <div>
-                <h2 className="font-display text-3xl tracking-wider mb-8">
-                  LET'S CONNECT
+                <h2 className="font-display text-3xl mb-8">
+                  Let's Connect
                 </h2>
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
-                    <Phone className="h-6 w-6 text-foreground/60 mt-1" />
+                    <Phone className="h-6 w-6 text-accent mt-1" />
                     <div>
-                      <h3 className="font-display text-xl tracking-wider mb-2">
+                      <h3 className="font-display text-xl mb-2">
                         Phone / WhatsApp
                       </h3>
                       <a
@@ -93,9 +93,9 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <Mail className="h-6 w-6 text-foreground/60 mt-1" />
+                    <Mail className="h-6 w-6 text-accent mt-1" />
                     <div>
-                      <h3 className="font-display text-xl tracking-wider mb-2">
+                      <h3 className="font-display text-xl mb-2">
                         Email
                       </h3>
                       <a
@@ -108,9 +108,9 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <MapPin className="h-6 w-6 text-foreground/60 mt-1" />
+                    <MapPin className="h-6 w-6 text-accent mt-1" />
                     <div>
-                      <h3 className="font-display text-xl tracking-wider mb-2">
+                      <h3 className="font-display text-xl mb-2">
                         Location
                       </h3>
                       <p className="text-muted-foreground font-body">
@@ -120,20 +120,20 @@ const Contact = () => {
                   </div>
 
                   <div>
-                    <h3 className="font-display text-xl tracking-wider mb-4">
+                    <h3 className="font-display text-xl mb-4">
                       Follow Us
                     </h3>
                     <div className="flex gap-4">
                       <a
                         href="#"
-                        className="p-3 bg-background rounded-sm border border-border/30 hover:border-foreground/30 transition-colors"
+                        className="p-3 bg-background rounded-sm border border-border/30 hover:border-accent/50 transition-colors"
                         aria-label="Instagram"
                       >
                         <Instagram className="h-5 w-5" />
                       </a>
                       <a
                         href="#"
-                        className="p-3 bg-background rounded-sm border border-border/30 hover:border-foreground/30 transition-colors"
+                        className="p-3 bg-background rounded-sm border border-border/30 hover:border-accent/50 transition-colors"
                         aria-label="Facebook"
                       >
                         <Facebook className="h-5 w-5" />
@@ -144,8 +144,8 @@ const Contact = () => {
 
                 {/* WhatsApp CTA */}
                 <div className="mt-12 p-6 bg-background rounded-sm border border-border/30">
-                  <h3 className="font-display text-xl tracking-wider mb-3">
-                    QUICK RESPONSE?
+                  <h3 className="font-display text-xl mb-3">
+                    Quick Response?
                   </h3>
                   <p className="text-muted-foreground font-body text-sm mb-4">
                     Reach out via WhatsApp for faster communication.
@@ -165,8 +165,8 @@ const Contact = () => {
 
               {/* Contact Form */}
               <div>
-                <h2 className="font-display text-3xl tracking-wider mb-8">
-                  SEND A MESSAGE
+                <h2 className="font-display text-3xl mb-8">
+                  Send a Message
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

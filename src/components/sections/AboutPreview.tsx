@@ -13,8 +13,8 @@ export function AboutPreview() {
             <span className="font-body text-sm tracking-widest text-muted-foreground uppercase mb-4">
               About the Artist
             </span>
-            <h2 className="font-display text-5xl md:text-6xl tracking-wider mb-8">
-              TEMOGO MONYE
+            <h2 className="font-display text-5xl md:text-6xl mb-8">
+              Temogo Monye
             </h2>
             <p className="text-muted-foreground font-body leading-loose mb-8">
               At just 18 years old, Temogo Monye has already established himself as a 

@@ -15,8 +15,8 @@ export function Footer() {
                 alt="Temography Logo" 
                 className="h-14 w-14 rounded-full object-cover"
               />
-              <span className="font-display text-2xl tracking-widest text-foreground">
-                TEMOGRAPHY
+              <span className="font-display text-2xl text-foreground">
+                Temography
               </span>
             </Link>
             <p className="mt-4 text-muted-foreground font-body text-sm leading-relaxed">
@@ -28,7 +28,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-display text-xl tracking-wider mb-6">Quick Links</h4>
+            <h4 className="font-display text-xl mb-6">Quick Links</h4>
             <div className="flex flex-col gap-3">
               {["About", "Projects", "Services", "Contact"].map((link) => (
                 <Link
@@ -44,7 +44,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display text-xl tracking-wider mb-6">Get In Touch</h4>
+            <h4 className="font-display text-xl mb-6">Get In Touch</h4>
             <div className="flex flex-col gap-4">
               <a
                 href="tel:0799963842"

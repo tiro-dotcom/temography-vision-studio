@@ -15,8 +15,8 @@ const About = () => {
               <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
                 Our Story
               </span>
-              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-wider mt-4 mb-6">
-                ABOUT TEMOGRAPHY
+              <h1 className="font-display text-6xl md:text-7xl lg:text-8xl mt-4 mb-6">
+                About Temography
               </h1>
               <p className="text-xl text-muted-foreground font-body leading-relaxed max-w-2xl">
                 Youthful creativity meets professional excellence in visual storytelling.
@@ -31,8 +31,8 @@ const About = () => {
             <div className="flex flex-col-reverse lg:flex-row gap-12 lg:gap-16 items-center justify-between">
               {/* Content */}
               <div className="flex-1 flex flex-col justify-center">
-                <h2 className="font-display text-4xl md:text-5xl tracking-wider mb-10">
-                  MEET TEMOGO MONYE
+                <h2 className="font-display text-4xl md:text-5xl mb-10">
+                  Meet Temogo Monye
                 </h2>
                 <p className="text-muted-foreground font-body leading-loose mb-8">
                   Temography was founded by Temogo Monye, an 18-year-old skilled photographer 
@@ -59,7 +59,7 @@ const About = () => {
                   className="w-64 md:w-72 aspect-[4/5] object-cover rounded-sm cinematic-border"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-background p-4 rounded-sm border border-border/30">
-                  <p className="font-display text-2xl tracking-wider">18</p>
+                  <p className="font-display text-2xl">18</p>
                   <p className="font-body text-xs text-muted-foreground">Years Young</p>
                 </div>
               </div>
@@ -70,8 +70,8 @@ const About = () => {
         {/* Values Section */}
         <section className="py-24 bg-background">
           <div className="container mx-auto px-6">
-            <h2 className="font-display text-4xl md:text-5xl tracking-wider text-center mb-16">
-              OUR VALUES
+            <h2 className="font-display text-4xl md:text-5xl text-center mb-16">
+              Our Values
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
@@ -90,9 +90,9 @@ const About = () => {
               ].map((value) => (
                 <div
                   key={value.title}
-                  className="p-8 bg-card rounded-sm border border-border/30 text-center"
+                  className="p-8 bg-card rounded-sm border border-border/30 text-center hover:border-accent/50 transition-colors"
                 >
-                  <h3 className="font-display text-2xl tracking-wider mb-4">
+                  <h3 className="font-display text-2xl mb-4">
                     {value.title}
                   </h3>
                   <p className="text-muted-foreground font-body text-sm leading-relaxed">

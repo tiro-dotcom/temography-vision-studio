@@ -43,8 +43,8 @@ export function Navbar() {
             alt="Temography Logo" 
             className="h-12 w-12 rounded-full object-cover"
           />
-          <span className="font-display text-2xl tracking-widest text-foreground hidden sm:block">
-            TEMOGRAPHY
+          <span className="font-display text-2xl text-foreground hidden sm:block">
+            Temography
           </span>
         </Link>
 

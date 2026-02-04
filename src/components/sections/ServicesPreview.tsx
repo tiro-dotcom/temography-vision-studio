@@ -34,8 +34,8 @@ export function ServicesPreview() {
           <span className="font-body text-sm tracking-widest text-muted-foreground uppercase">
             What We Offer
           </span>
-          <h2 className="font-display text-5xl md:text-6xl tracking-wider mt-4">
-            OUR SERVICES
+          <h2 className="font-display text-5xl md:text-6xl mt-4">
+            Our Services
           </h2>
         </div>
 
@@ -44,10 +44,10 @@ export function ServicesPreview() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group p-8 bg-card rounded-sm border border-border/30 hover:border-foreground/20 transition-all duration-300"
+              className="group p-8 bg-card rounded-sm border border-border/30 hover:border-accent/50 transition-all duration-300"
             >
-              <service.icon className="h-10 w-10 text-foreground/60 mb-6 group-hover:text-foreground transition-colors" />
-              <h3 className="font-display text-xl tracking-wider mb-3">
+              <service.icon className="h-10 w-10 text-accent mb-6 group-hover:text-accent transition-colors" />
+              <h3 className="font-display text-xl mb-3">
                 {service.title}
               </h3>
               <p className="text-muted-foreground font-body text-sm leading-relaxed">
