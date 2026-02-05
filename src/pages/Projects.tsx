@@ -13,6 +13,10 @@ import wedding3 from "@/assets/wedding-3.jpg";
 import wedding4 from "@/assets/wedding-4.jpg";
 import wedding5 from "@/assets/wedding-5.jpg";
 import wedding6 from "@/assets/wedding-6.jpg";
+import wedding7 from "@/assets/wedding-7.jpg";
+import wedding8 from "@/assets/wedding-8.jpg";
+import wedding9 from "@/assets/wedding-9.jpg";
+import wedding10 from "@/assets/wedding-10.jpg";
 
 const categories = [
   { id: "all", label: "All" },
@@ -30,6 +34,10 @@ const projects = [
   { id: 4, category: "weddings", title: "Garden Beauty", image: wedding4 },
   { id: 5, category: "weddings", title: "First Dance", image: wedding5 },
   { id: 6, category: "weddings", title: "Intimate Moments", image: wedding6 },
+  { id: 12, category: "weddings", title: "Bridal Procession", image: wedding7 },
+  { id: 13, category: "weddings", title: "Beautiful Bride", image: wedding8 },
+  { id: 14, category: "weddings", title: "Wedding Decor", image: wedding9 },
+  { id: 15, category: "weddings", title: "Mr & Mrs", image: wedding10 },
   { id: 7, category: "parties", title: "Vintage Style", image: party1 },
   { id: 11, category: "parties", title: "Night Out", image: party2 },
   { id: 8, category: "matric", title: "Matric Dance Portrait", image: matricImg },
