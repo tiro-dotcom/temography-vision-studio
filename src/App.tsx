@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { WhatsAppWidget } from "@/components/WhatsAppWidget";
+import { InstagramWidget } from "@/components/InstagramWidget";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
         <WhatsAppWidget />
+        <InstagramWidget />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
