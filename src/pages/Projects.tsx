@@ -6,6 +6,10 @@ import party1 from "@/assets/party-1.jpg";
 import party2 from "@/assets/party-2.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
 import engagementImg from "@/assets/engagement-1.jpg";
+import engagement2 from "@/assets/engagement-2.jpg";
+import engagement3 from "@/assets/engagement-3.jpg";
+import engagement4 from "@/assets/engagement-4.jpg";
+import engagement5 from "@/assets/engagement-5.jpg";
 import familyImg from "@/assets/portfolio-family.jpg";
 import wedding1 from "@/assets/wedding-1.jpg";
 import wedding2 from "@/assets/wedding-2.jpg";
@@ -42,6 +46,10 @@ const projects = [
   { id: 11, category: "parties", title: "Night Out", image: party2 },
   { id: 8, category: "matric", title: "Matric Dance Portrait", image: matricImg },
   { id: 9, category: "engagements", title: "Romantic Engagement", image: engagementImg },
+  { id: 16, category: "engagements", title: "Family Elders", image: engagement2 },
+  { id: 17, category: "engagements", title: "Mrs Mmonye", image: engagement3 },
+  { id: 18, category: "engagements", title: "Traditional Celebration", image: engagement4 },
+  { id: 19, category: "engagements", title: "Ring Ceremony", image: engagement5 },
   { id: 10, category: "family", title: "Family Portrait", image: familyImg },
 ];
 
