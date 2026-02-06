@@ -17,8 +17,7 @@ export function AboutPreview() {
               Temogo Monye
             </h2>
             <p className="text-muted-foreground font-body leading-loose mb-8">
-              At just 18 years old, Temogo Monye has already established himself as a 
-              skilled photographer and videographer.
+              Temogo Monye has established himself as a skilled photographer and videographer.
             </p>
             <p className="text-muted-foreground font-body leading-loose mb-8">
               Trained and apprenticed by Bonolo Monye, he brings a fresh perspective 
