@@ -4,6 +4,8 @@ import { Footer } from "@/components/layout/Footer";
 import { CTASection } from "@/components/sections/CTASection";
 import party1 from "@/assets/party-1.jpg";
 import party2 from "@/assets/party-2.jpg";
+import party3 from "@/assets/party-3.jpg";
+import party4 from "@/assets/party-4.jpg";
 import matricImg from "@/assets/portfolio-matric.jpg";
 import engagementImg from "@/assets/engagement-1.jpg";
 import engagement2 from "@/assets/engagement-2.jpg";
@@ -45,6 +47,8 @@ const projects = [
   { id: 15, category: "weddings", title: "Mr & Mrs", image: wedding10 },
   { id: 7, category: "parties", title: "Vintage Style", image: party1 },
   { id: 11, category: "parties", title: "Night Out", image: party2 },
+  { id: 21, category: "parties", title: "Street Swagger", image: party3 },
+  { id: 22, category: "parties", title: "Squad Goals", image: party4 },
   { id: 8, category: "matric", title: "Matric Dance Portrait", image: matricImg },
   { id: 9, category: "engagements", title: "Romantic Engagement", image: engagementImg },
   { id: 16, category: "engagements", title: "Family Elders", image: engagement2 },
