@@ -35,7 +35,7 @@ const About = () => {
                   Meet Temogo Monye
                 </h2>
                 <p className="text-muted-foreground font-body leading-loose mb-8">
-                  Temography was founded by Temogo Monye, an 18-year-old skilled photographer 
+                  Temography was founded by Temogo Monye, a skilled photographer 
                   and videographer with a passion for capturing life's most precious moments.
                 </p>
                 <p className="text-muted-foreground font-body leading-loose mb-8">
@@ -58,10 +58,6 @@ const About = () => {
                   alt="Temogo Monye - Founder of Temography"
                   className="w-64 md:w-72 aspect-[4/5] object-cover rounded-sm cinematic-border"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-background p-4 rounded-sm border border-border/30">
-                  <p className="font-display text-2xl">18</p>
-                  <p className="font-body text-xs text-muted-foreground">Years Young</p>
-                </div>
               </div>
             </div>
           </div>
