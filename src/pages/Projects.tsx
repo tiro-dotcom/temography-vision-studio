@@ -10,6 +10,7 @@ import engagement2 from "@/assets/engagement-2.jpg";
 import engagement3 from "@/assets/engagement-3.jpg";
 import engagement4 from "@/assets/engagement-4.jpg";
 import engagement5 from "@/assets/engagement-5.jpg";
+import engagement6 from "@/assets/engagement-6.jpg";
 import familyImg from "@/assets/portfolio-family.jpg";
 import wedding1 from "@/assets/wedding-1.jpg";
 import wedding2 from "@/assets/wedding-2.jpg";
@@ -50,6 +51,7 @@ const projects = [
   { id: 17, category: "engagements", title: "Mrs Mmonye", image: engagement3 },
   { id: 18, category: "engagements", title: "Traditional Celebration", image: engagement4 },
   { id: 19, category: "engagements", title: "Ring Ceremony", image: engagement5 },
+  { id: 20, category: "engagements", title: "Golden Heels", image: engagement6 },
   { id: 10, category: "family", title: "Family Portrait", image: familyImg },
 ];
 
