@@ -18,14 +18,39 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // Construct WhatsApp message with form details
+    const eventTypeLabels: Record<string, string> = {
+      wedding: "Wedding",
+      matric: "Matric Dance",
+      party: "Party / Event",
+      engagement: "Engagement",
+      family: "Family Shoot",
+      other: "Other",
+    };
     
-    toast.success("Message sent successfully! We'll get back to you soon.");
+    const messageParts = [
+      `*New Inquiry from Website*`,
+      ``,
+      `*Name:* ${formData.name}`,
+      `*Email:* ${formData.email}`,
+      formData.phone ? `*Phone:* ${formData.phone}` : null,
+      formData.eventType ? `*Event Type:* ${eventTypeLabels[formData.eventType] || formData.eventType}` : null,
+      formData.date ? `*Event Date:* ${formData.date}` : null,
+      ``,
+      `*Message:*`,
+      formData.message,
+    ].filter(Boolean).join('\n');
+    
+    const whatsappUrl = `https://wa.me/27799963842?text=${encodeURIComponent(messageParts)}`;
+    
+    // Open WhatsApp in new tab
+    window.open(whatsappUrl, '_blank');
+    
+    toast.success("Opening WhatsApp with your message. Please send it to complete your inquiry!");
     setFormData({
       name: "",
       email: "",
